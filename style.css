@@ -10,7 +10,7 @@ h1{
     padding-bottom: 70px;
 }
 
-.geral{
+.bodyGrey{
     align-content: center;
     justify-content: center;
     background: #f7f7f7;
@@ -51,14 +51,14 @@ img{
     max-width: 100%;
 }
 
-.grida{
+.grid1{
     display: grid;
     background: white;
     place-items: end;
     padding: 30px;
 }
 
-.grida a{
+.grid1 a{
     background: #ee2211;
     color: white;
 }
@@ -68,25 +68,25 @@ p{
     margin: 0px;
 }
 
-.grida h1{
+.grid1 h1{
     padding: 0px;
 }
 
-.gridc p{
+.grid3 p{
     font-size: 64px;
     color: #c6c6c6;
     text-align: right;
     margin-top:  100px;
 }
 
-.gridd{
+.grid4{
     background: white;
     padding: 50px 60px;
     justify-items: left;
     align-items: left;
 }
 
-.gridd h2{
+.grid4 h2{
     display: inline;
 }
 
@@ -103,14 +103,10 @@ p{
     padding-left: 23px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.detalhe{
+    width: 60px;
+    height: 7px;
+    background: #ee2211;
+    position: relative;
+    right: -60px;
+}
